@@ -124,9 +124,4 @@ MIT
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Project Contributors
 
-- Naveen Mantri
-- MADHAV
-- Sai Kowshik
-- Rakesh Naidu
