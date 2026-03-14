@@ -54,8 +54,8 @@ function createWindow() {
         http.get('http://localhost:5001', (res) => {
             if (res.statusCode === 200 || res.statusCode === 404) { // 404 is fine, means server is up but maybe path error which we catch
                 log.info('Server is ready, loading window...');
-                mainWindow.loadURL('http://localhost:5001');
-                mainWindow.webContents.openDevTools();
+                mainWindow.loadURL('http://localhost:3000');
+               // mainWindow.webContents.openDevTools();
             } else {
                 log.info(`Server responded with ${res.statusCode}, retrying...`);
                 setTimeout(loadWindow, 500);
